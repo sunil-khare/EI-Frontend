@@ -1,0 +1,97 @@
+@media (prefers-reduced-motion: no-preference) {
+    .signup1 {
+      animation: App-logo-spin infinite 4s linear;
+    }
+  }
+
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .div-main{
+    height: 718px;
+    background-image: linear-gradient(to right, #007991, #78ffd6);
+  }
+
+  .signup{
+      padding:10px;
+      border:.2em solid #e9e9f1;
+      background-color:#f7f7f9;
+      box-shadow: 0px 6px 12px 0px #90a4ae;
+      max-width: 80%;
+      width: 30%;
+      height: 580px;
+      padding:30px;
+      border-radius: 30px;
+
+  }
+  .signup h3{
+      text-align: center
+  }
+
+  @media only screen and (min-width: 992px) {
+    .signup{
+      width: 30%;
+    }
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 690px) {
+  .signup{
+    width: 100%;
+    border: none;
+    box-shadow: 0px 0px;
+    height: 580px;
+    align-items: center;
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .signup{
+    width: 100%;
+    border: none;
+    box-shadow: 0px 0px;
+    margin-top:3%;
+    align-items: center;
+    height: 580px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .signup{
+    padding:10px;
+    border:.2em solid #e9e9f1;
+    background-color:#f7f7f9;
+    box-shadow: 0px 0px 12px 3px #90a4ae;
+    max-width: 80%;
+    width: 30%;
+    padding:30px;
+    margin-top:3%;
+    height: 580px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .signup{
+    padding:10px;
+    border:.2em solid #e9e9f1;
+    background-color:#f7f7f9;
+    box-shadow: 0px 0px 12px 3px #90a4ae;
+    max-width: 80%;
+    height: 580px;
+    width: 30%;
+    padding:30px;
+    margin-top:3%
+}
+}

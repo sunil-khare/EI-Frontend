@@ -1,0 +1,123 @@
+@media (prefers-reduced-motion: no-preference) {
+    .login1 {
+      animation: App-logo-spin infinite 4s linear;
+    }
+  }
+.App{
+        margin-right: 0;
+     margin-left: 0; 
+}
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.div-main{
+  height:718px;
+  background-image: linear-gradient(to right, #007991, #78ffd6);
+}
+
+  .support{
+      padding:10px;
+      border:.2em solid #e9e9f1;
+      background-color:#f7f7f9;
+      box-shadow: 0px 6px 12px 0px #90a4ae;
+      max-width: 80%;
+      width: 30%;
+      height: 745px;
+      margin-top: 2%;
+      /* position: absolute; */
+      /* left: 30%; */
+      /* top: 20%; */
+      padding:30px;
+      border-radius: 30px;
+     
+  }
+  .login h2{
+      text-align: center
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.support{
+  border:none;
+  width: 100%;
+  box-shadow: 0px 0px;
+  /* left:10%; */
+  margin-top: 2%;
+  /* top: 10%; */
+  /* box-shadow: 0px 0px 7px 3px #90a4ae; */
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .support{
+    border:none;
+    width: 100%;
+    box-shadow: 0px 0px;
+    /* left:10%; */
+    /* top: 10%; */
+    margin-top: 2%;
+    /* box-shadow: 0px 0px 7px 3px #90a4ae; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .support{
+    padding:10px;
+    border:.2em solid #e9e9f1;
+    background-color:#f7f7f9;
+    box-shadow: 0px 0px 12px 3px #90a4ae;
+    max-width: 80%;
+    width: 30%;
+    height:745px;
+    /* position: absolute; */
+    /* left: 30%; */
+    /* top: 20%; */
+    margin-top: 2%;
+    padding:30px
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .support{
+    padding:10px;
+    border:.2em solid #e9e9f1;
+    background-color:#f7f7f9;
+    box-shadow: 0px 0px 12px 3px #90a4ae;
+    max-width: 80%;
+    width: 30%;
+    margin-top: 2%;
+    height: 745px;
+    /* position: absolute; */
+    /* left: 30%; */
+    /* top: 20%; */
+    padding:30px
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .support{
+    padding:10px;
+    border:.2em solid #e9e9f1;
+    background-color:#f7f7f9;
+    box-shadow: 0px 0px 12px 3px #90a4ae;
+    max-width: 80%;
+    width: 30%;
+    height: 745px;
+    margin-top: 2%;
+    /* position: absolute; */
+    /* left: 35%; */
+    /* top: 15%; */
+    padding:30px
+}
+}

@@ -1,5 +1,38 @@
 .App {
   text-align: center;
+  padding: 9px;
+  font-size: 17px;
+  background-color: #282c34
+}
+
+.menuList {
+  padding: 10px;
+  
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-skip: none;
+  color: white;
+}
+.menuList:hover{
+  background-color:white;
+  border-radius:5px;
+  
+}
+.menuList-dropdown{
+  background-color:none;
+  margin:5px;
+}
+.menuList:hover .link{
+  background-color:white;
+  border-radius:5px;
+  color: black;
+  text-decoration: none;
+}
+
+.App div img {
+  padding: 5px;
 }
 
 .App-logo {
@@ -9,7 +42,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 3s linear;
   }
 }
 
@@ -28,11 +61,42 @@
   color: #61dafb;
 }
 
+.font-css {
+  padding: 0px !important;
+  min-height:100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: rgba(61, 61, 61, 0.8); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(133, 127, 127, 0.4); 
 }

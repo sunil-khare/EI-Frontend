@@ -1,0 +1,9 @@
+.footer{
+    position: relative;
+    bottom:0;
+    padding:10px;
+    right: 4px;
+    margin: 9px;
+    display:flex;
+    clear:both
+} 
